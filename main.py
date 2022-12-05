@@ -9,4 +9,4 @@ qr.add_data(data)
 qr.make(fit=True)
 img = qr.make_image(fill_color = 'purple', back_color = 'white')
 
-img.save('C:/Users/cenka/Documents/WORKSPACE/py/qrencoder/qr/qr1.png')
+img.save(input("Save as: "))
